@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+#main-nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100% ;
+    z-index: 1;
+    background-color: rgb(152,163,131);
+    display:flex;
+    justify-content: end;
+  
+}
+#main-nav a{
+text-decoration: none;
+color:white;
+}
+#main-nav li{
+    display:inline;
+    margin: 20px;
+}
+#main-content{
+    margin-top:50px ;
+    border: 1px dashed #4f768e;
+    height: 150px;
+    width: 50%;
+    padding: 20px;
+}
